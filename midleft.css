@@ -1,0 +1,46 @@
+.MidRight-ContainerTop{
+    border: 20px solid #EBEBEB;
+    padding: 20px;
+}
+
+.aboutMe{
+    font-size: 1.25rem;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    color: #143774;
+    font-weight: 700;
+}
+
+.myPic{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.mypic-desc{
+    color : #143774;
+    line-height: 25px;
+}
+
+.MidRight-ContainerBottom{
+    border: 20px solid #EBEBEB;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.B-Small{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.desc{
+    font-family: 'Lora';
+    font-size: 1.25rem;
+    color: #143774;
+    font-weight: 700;
+    border-bottom: 2px solid #EBEBEB;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
