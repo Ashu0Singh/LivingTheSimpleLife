@@ -2,6 +2,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 
 /*-----------------------------------*/
@@ -112,33 +120,84 @@ li > a:hover{
     overflow: hidden;
     margin: 3rem auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
+@media screen and (max-width: 860px) {
+    .MidSection{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
 .MidLeft{
     width: 70%;
 }
 
+@media screen and (max-width: 860px) {
+    .MidLeft{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
 .MidRight{
     width: 26%;
 }
+
+@media screen and (max-width: 860px) {
+    .MidRight{
+        width: 90%;
+        margin: 40px auto;
+    }
+}
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
 .HeroImage{
     width: 100%;
     object-fit: cover;
     height: 400px;
 }
+@media screen and (max-width: 860px) {
+    .HeroImage{
+        height: 300px;
+    }
+}
+/*-----------------------------------*/
 
+
+/*-----------------------------------*/
 p{
     color: #707070;
     margin: 1rem 0 1rem 0;
 }
+/*-----------------------------------*/
 
+
+/*-----------------------------------*/
 .Comments{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
     font-size: 0.75rem;
 }
+@media screen and (max-width: 860px) {
+    .Comments{
+        margin-left: 5%;
+    }
+}
+/*-----------------------------------*/
 
+
+/*-----------------------------------*/
 .TextBelow{
     display: flex;
     flex-direction: column;
@@ -146,7 +205,16 @@ p{
     width: 100%;
     border-bottom: #707070 solid 3px;
 }
+@media screen and (max-width: 860px) {
+    .TextBelow{
+        width: 90%;
+        margin: auto auto;
+    }
+}
+/*-----------------------------------*/
 
+
+/*-----------------------------------*/
 .findingSimplicity{
     font-weight: 700;
     font-family: 'Lora';
@@ -171,33 +239,58 @@ p{
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
+/*-----------------------------------*/
 
 
-
+/*-----------------------------------*/
 .TextSection1, .TextSection2 , .TextSection3{
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
 }
+@media screen and (max-width: 860px) {
+    .TextSection1, .TextSection2 , .TextSection3{
+        flex-direction: column;
+    }
+}
+/*-----------------------------------*/
 
+
+/*-----------------------------------*/
 .image{
     width: 30%;
-    
 }
+@media screen and (max-width: 860px) {
+    .image{
+        width: 100%;
+    }
+}
+/*-----------------------------------*/
 
+
+/*-----------------------------------*/
 .boxImg{
     width: 100%;
     height: 250px;
     object-fit: cover;
 }
+/*-----------------------------------*/
 
+
+/*-----------------------------------*/
 .description{
     width: 65%;
     display: flex;
     flex-direction: column;
 }
-
+@media screen and (max-width: 860px) {
+    .description{
+        width: 90%;
+        margin: auto auto;
+    }
+}
+/*-----------------------------------*/
 
 footer{
     background: #143774;
